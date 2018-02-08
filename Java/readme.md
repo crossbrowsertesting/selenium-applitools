@@ -7,7 +7,7 @@ cd cbt
 mvn install
 ```
 
-To run your tests, run:
+Be sure to enter your username and authorization key for [CrossBrowserTesting](https://app.crossbrowsertesting.com/account), as well as your Applitools API key. Once your script has been updated, run your tests with:
 
 ```
 mvn test
