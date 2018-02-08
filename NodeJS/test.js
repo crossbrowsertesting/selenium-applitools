@@ -34,7 +34,7 @@ eyes.open(driver, 'CrossBrowserTesting', 'My first Applitools test with NodeJS',
     .then((driver) => {
         // navigate to the page we'd like to test
         driver.get('https://crossbrowsertesting.com');
-        // Visual validation point #2
+        // Visual validation point
         eyes.checkWindow('Visual Testing');
         // End visual testing. Validate visual correctness.
         eyes.close();

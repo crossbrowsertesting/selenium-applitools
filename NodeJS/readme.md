@@ -3,6 +3,7 @@
 Run your Applitools Eyes tests using NodeJS and CBT. To run, clone the repository, then:
 
 ```
+cd NodeJS
 npm install
 ```
 

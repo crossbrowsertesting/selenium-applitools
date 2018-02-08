@@ -3,6 +3,7 @@
 Run your Applitools Eyes tests using Python and CBT. To run, clone the repository, then:
 
 ```
+cd Python
 pip install selenium requests eyes-selenium
 ```
 

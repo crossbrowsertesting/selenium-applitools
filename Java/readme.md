@@ -3,7 +3,7 @@
 Run your Applitools Eyes tests using Java and CBT. To run, clone the repository, then:
 
 ```
-cd cbt
+cd Java/cbt
 mvn install
 ```
 

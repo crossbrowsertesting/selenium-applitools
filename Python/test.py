@@ -35,7 +35,7 @@ try:
     
     driver.get('https://crossbrowsertesting.com/visual-testing')
 
-    # Visual checkpoint #2.
+    # Visual checkpoint
     eyes.check_window('Visual Testing')
 
     # End the test.

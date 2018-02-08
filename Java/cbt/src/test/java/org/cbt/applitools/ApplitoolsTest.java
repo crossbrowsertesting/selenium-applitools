@@ -40,6 +40,7 @@ public class ApplitoolsTest extends TestCase {
         // navigate to the webpage we'd like to capture
         driver.get("https://crossbrowsertesting.com/visual-testing");
 
+        // Visual checkpoint
         eyes.checkWindow("Visual Testing");
 
         eyes.close();

@@ -29,7 +29,7 @@ eyes.setApiKey('NOTMYAPIKEY');
 var runTest = async () => {
     var score, session = await driver.getSession();
     try {
-        sessionId = session.id_
+        sessionId = session.id_;
         await eyes.open(driver, 'CrossBrowserTesting', 'My first Applitools test with NodeJS', { width: 800, height: 600 });
         await driver.get('https://crossbrowsertesting.com/visual-testing');
         await eyes.checkWindow('Visual Testing');
