@@ -26,7 +26,7 @@ var eyes = new Eyes();
 // This is your api key, make sure you use it in all your tests.
 eyes.setApiKey('NOTMYAPIKEY');
 
-var runTest = async function() {
+var runTest = async () => {
     var score, session = await driver.getSession();
     try {
         sessionId = session.id_
