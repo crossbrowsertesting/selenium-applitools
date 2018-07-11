@@ -2,8 +2,8 @@ var webdriver = require('selenium-webdriver');
 var Eyes = require('eyes.selenium').Eyes;
 var request = require('request');
  
-var username = 'chase@crossbrowsertesting.com';
-var authkey = 'NOTMYAUTHKEY';
+var username = 'YOUR_CBT_MAIL';
+var authkey = 'YOUR_CBT_AUTHKEY';
 var score = 'pass';
 var sessionId;
 var hubUrl = 'http://' + username + ':' + authkey + '@hub.crossbrowsertesting.com:80/wd/hub';
